@@ -4,6 +4,8 @@ This is a ~~private repo~~, public now bitch;
 
 You literally **never** saw this and I will slice your f*cking throat **:)**
 
+## News `Update 2022-08-22`
+### **I have recently been adding a bunch of documentation and comments in EVERY single existing class file to clarify what things do, why they are there, and what is going on.**
 ## Source
 
 In this repo we have a ton of helpful classes for Java beginners, that explain certain things in Java.
@@ -52,7 +54,7 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 > Loops inside of loops. Creates a grid of your select character and size, while starting over after the grid has been displayed to you. Has support for continuing or breaking the loop with two separate methods. ! With exception handling !
 
 And I am defintitely expanding on this / updating in in the future.
->`Last Edit: 2022-08-22 06:08 AM CET`
+>`Last Edit: 2022-08-22 10:46 AM CET`
 
 ## How to use the repo
 

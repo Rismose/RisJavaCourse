@@ -2,18 +2,18 @@ public class SwapVariable {
 
     public static void main() {
 
-        String x = "x";
-        String y = "y";
-        String temp;
+        String x = "x"; // Declare a string variable
+        String y = "y"; // Declare a string variable
+        String temp; // Declare a string variable
 
-        temp = x;
+        temp = x; // Assign x to temp
 
-        x = y;
+        x = y; // Assign y to x
 
-        y = temp;
+        y = temp; // Assign temp to y
 
-        System.out.println("x: " + x);
-        System.out.println("y: " + y);
+        System.out.println("x: " + x); // Prints the value of x
+        System.out.println("y: " + y); // Prints the value of y
 
     }
 
