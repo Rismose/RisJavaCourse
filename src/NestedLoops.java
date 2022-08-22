@@ -15,8 +15,8 @@ public class NestedLoops {
 
         Scanner input = new Scanner(System.in); // Declare a Scanner object
         
-        int rows; // Declare an integer variable named "rows"
-        int columns; // Declare an integer variable named "columns"
+        int rows = 0; // Declare an integer variable named "rows"
+        int columns = 0; // Declare an integer variable named "columns"
         char symbol = '*'; // Declare a char variable named "symbol" and set it to '*'
 
 
@@ -25,7 +25,7 @@ public class NestedLoops {
             rows = input.nextInt(); // Storing your input in an integer named "rows"
         } catch (Exception e) { // Catch any exceptions
             System.out.println("Invalid input. Please enter a number."); // Prints the message if the input is invalid
-            return; // Return to the main method
+            nest(); // Restarts the method
         }
 
         try {
@@ -33,7 +33,7 @@ public class NestedLoops {
             columns = input.nextInt(); // Storing your input in an integer named "columns"
         } catch (Exception e) { // Catch any exceptions
             System.out.println("Invalid input. Please enter a number."); // Prints the message if the input is invalid
-            return; // Return to the main method
+            nest(); // restarts the method
         }
 
         System.out.println("Enter symbol: "); // Printing a message to the console asking about the symbol
