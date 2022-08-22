@@ -61,8 +61,8 @@ In order to test out and use the classes in this repo you have to do a little bi
 
 4. To then test out the different classes in the repo, it is very simple. Just head over into the **`Main.java`** class and un-comment the **method** for the **class** you want to test.
 
-![Main Class in IntelliJ IDEA]([url=https://ibb.co/0y4G2J7][img]https://i.ibb.co/0y4G2J7/image.png[/img][/url])
+![Main Class in IntelliJ IDEA](/screenshots/mainclassscreen.png)
 
 5. The file structure should look like this.
 
-![File Structure in IntelliJ IDEA]([url=https://ibb.co/0y4G2J7][img]https://i.ibb.co/0y4G2J7/image.png[/img][/url])
+![File Structure in IntelliJ IDEA](/screenshots/file-structure.png)
