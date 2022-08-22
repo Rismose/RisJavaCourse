@@ -52,7 +52,7 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 > Loops inside of loops. Creates a grid of your select character and size, while starting over after the grid has been displayed to you. Has support for continuing or breaking the loop with two separate methods. ! With exception handling !
 
 And I am defintitely expanding on this / updating in in the future.
->`Last Edit: 2022-08-22 06:02 AM CET`
+>`Last Edit: 2022-08-22 06:08 AM CET`
 
 ## How to use the repo
 
