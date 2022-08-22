@@ -1,10 +1,6 @@
 # Rismose Java Course
 
-This is a private repo, so if you see this and you are not;
-
- - Rismose (me retard)
-  - jiggey
-  - `more ppl soon????`
+This is a ~~private repo~~, public now bitch;
 
 You literally **never** saw this and I will slice your f*cking throat **:)**
 
