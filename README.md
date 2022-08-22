@@ -65,4 +65,4 @@ In order to test out and use the classes in this repo you have to do a little bi
 
 5. The file structure should look like this.
 
-![File Structure in IntelliJ IDEA](/screenshots/file-structure.png)
+![File Structure in IntelliJ IDEA](/screenshots/structurescreen.png)
