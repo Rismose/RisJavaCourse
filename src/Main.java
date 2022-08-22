@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         //      In here, just uncomment the method you want to test
 
@@ -21,6 +21,12 @@ public class Main {
         // Switches.main(); // Switch Statements
 
         // LogicalOperators.main(); // Logical Operators
+
+        // WhileLoops.main(); // while Loops
+
+        // ForLoops.main(); // for Loops & delay between lines
+
+        // NestedLoops.main(); // nested loops, loops inside loops
 
     }
 

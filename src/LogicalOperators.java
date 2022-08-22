@@ -23,11 +23,11 @@ public class LogicalOperators {
 
 
         //      NOT operator (!)
-        not();      // Check the method below called not()
-        not2();     // Check the method below called not2()
+       not();      // Check the method below called not()
+       not2();     // Check the method below called not2()
 
         //      OR operator (||)
-        game();     // Check the method called game() below
+       game();     // Check the method called game() below
 
     }
 

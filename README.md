@@ -45,9 +45,18 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 
 **Logical Operators `LogicalOperators.java`**
 > Using logical operators like `&&, ||, !` to check if-satements and case satements. Also using methods to infinitely run the program until the correct key or phrase is input.
->
+
+**While Loops `WhileLoops.java`**
+> Simple while loops and an example of a do-while loop.
+
+**For Loops `ForLoops.java`**
+> Simple for loops, and counting with delay.
+
+**Nested Loops `NestedLoops.java`**
+> Loops inside of loops. Creates a grid of your select character and size, while starting over after the grid has been displayed to you. Has support for continuing or breaking the loop with two separate methods. ! With exception handling !
+
 And I am defintitely expanding on this / updating in in the future.
->`Last Edit: 2022-08-22`
+>`Last Edit: 2022-08-22 06:02 AM CET`
 
 ## How to use the repo
 
