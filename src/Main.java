@@ -14,9 +14,9 @@ public class Main {
 
         // GUI.main(); // GUI STUFF
 
-        // MathStuff.main(); // Caclulate the hypotenuse of a right triangle
+        // MathStuff.main(); // Calculate the hypotenuse of a right triangle
 
-        // RandomStuff.main(); // Generate psuedo-random numbers
+        // RandomStuff.main(); // Generate pseudo-random numbers
 
         // Switches.main(); // Switch Statements
 
