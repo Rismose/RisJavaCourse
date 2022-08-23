@@ -18,25 +18,25 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 > Main class, where all methods are initialized.
 
 **Variables `Variables.java`**
-> Variables such as `a, b, c, 1, 2, 3, etc.` Stores the value of integers and Strings for example.
+> Variables such as **`a, b, c, 1, 2, 3, etc.`** Stores the value of integers and Strings for example.
 
 **Swap Variables `Swapvariable.java`**
-> The art of swapping variable information using a temporary Variable `(swapping x value to y using z)`
+> The art of swapping variable information using a temporary Variable **`(swapping x value to y using z)`**
 
 **Strings `StringStuff.java`**
-> A lot of information about Strings and what you can do with them. `equals` `equalsIgnoreCase` `length` `charAt` `indexOf` `isEmpty` `toUpperCase` `toLowerCase` `trim` `replace`
+> A lot of information about Strings and what you can do with them. **`equals` `equalsIgnoreCase` `length` `charAt` `indexOf` `isEmpty` `toUpperCase` `toLowerCase` `trim` `replace`**
 
  **Expressions `Expressions.java`**
-> Expressions such as `+, -, *, /, %, ++, --, etc.`
+> Expressions such as **`+, -, *, /, %, ++, --, etc.`**
 
 **GUI `GUI.java`**
 > Simple use of the Swing graphical package for getting, storing and showing user input and messages in a graphical interface.
 
 **Math `MathStuff.java`**
-> Basic math introduction & calculating the hypotenuse of a right side triangle. Also using the `Swing GUI`
+> Basic math introduction & calculating the hypotenuse of a right side triangle. Also using the **`Swing GUI`** to get user input.
 
 **Random `RandomStuff.java`**
-> Psuedo-random number generator between 1-5.
+> Pseudo-random number generator between 1-5.
 
 **Switches `Switches.java`**
 > Using switches to compare for a value, instead of having to have a large tree of if-statements
@@ -45,7 +45,7 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 > The use of getting and storing user input via a Scanner.
 
 **Logical Operators `LogicalOperators.java`**
-> Using logical operators like `&&, ||, !` to check if-satements and case satements. Also using methods to infinitely run the program until the correct key or phrase is input.
+> Using logical operators like **`&&, ||, !`** to check if-statements and case statements. Also using methods to infinitely run the program until the correct key or phrase is input.
 
 **While Loops `WhileLoops.java`**
 > Simple while loops and an example of a do-while loop.
@@ -63,7 +63,7 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 > 2D Arrays are arrays inside of arrays. Simple example of a 2D array with 3x rows 3x columns and a nested for loop.
 
 And I am defintitely expanding on this / updating in in the future.
->`Last Edit: 2022-08-23 05:17 AM CET`
+>**`Last Edit: 2022-08-23 05:17 AM CET`**
 
 ## How to use the repo
 
@@ -73,7 +73,7 @@ In order to test out and use the classes in this repo you have to do a little bi
 
 2. Once installed you have to set up a new project with a working environment. In this repo I have used **Java 8**, so anything newer than that would work (**Current version is Java 17**).
 
-3. Then you can drop all of the files from **`src`** into your  own **`src`** folder.
+3. Then you can drop all the files from **`src`** into your  own **`src`** folder.
 
 4. To then test out the different classes in the repo, it is very simple. Just head over into the **`Main.java`** class and un-comment the **method** for the **class** you want to test.
 
