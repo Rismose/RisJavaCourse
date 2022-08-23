@@ -28,6 +28,12 @@ public class Main {
 
         // NestedLoops.main(); // nested loops, loops inside loops
 
+        // Arrays.main(); // Arrays - Store multiple values in a single variable.
+
+        // Array2D.main(); // 2D Arrays - An array that contains other arrays
+
+        // StringStuff.main(); // String Stuff - Anything you could want to know about strings.
+
     }
 
 }

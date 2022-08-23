@@ -17,6 +17,15 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
  **Main `Main.java`**
 > Main class, where all methods are initialized.
 
+**Variables `Variables.java`**
+> Variables such as `a, b, c, 1, 2, 3, etc.` Stores the value of integers and Strings for example.
+
+**Swap Variables `Swapvariable.java`**
+> The art of swapping variable information using a temporary Variable `(swapping x value to y using z)`
+
+**Strings `StringStuff.java`**
+> A lot of information about Strings and what you can do with them. `equals` `equalsIgnoreCase` `length` `charAt` `indexOf` `isEmpty` `toUpperCase` `toLowerCase` `trim` `replace`
+
  **Expressions `Expressions.java`**
 > Expressions such as `+, -, *, /, %, ++, --, etc.`
 
@@ -25,12 +34,6 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 
 **Math `MathStuff.java`**
 > Basic math introduction & calculating the hypotenuse of a right side triangle. Also using the `Swing GUI`
-
-**Variables `Variables.java`**
-> Variables such as `a, b, c, 1, 2, 3, etc.` Stores the value of integers and Strings for example.
-
-**Swap Variables `Swapvariable.java`**
-> The art of swapping variable information using a temporary Variable `(swapping x value to y using z)`
 
 **Random `RandomStuff.java`**
 > Psuedo-random number generator between 1-5.
@@ -51,10 +54,16 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 > Simple for loops, and counting with delay.
 
 **Nested Loops `NestedLoops.java`**
-> Loops inside of loops. Creates a grid of your select character and size, while starting over after the grid has been displayed to you. Has support for continuing or breaking the loop with two separate methods. ! With exception handling !
+> Loops inside of loops. Creates a grid of your select character and size, while starting over after the grid has been displayed to you. Has support for continuing or breaking the loop with two separate methods with exception handling
+
+**Arrays `Arrays.java`**
+> Arrays are used to store multiple values in a single variable. Simple example of an array with 3 values & a for loop. Exception handling is used to catch errors.
+
+**2D Arrays `Array2D.java`**
+> 2D Arrays are arrays inside of arrays. Simple example of a 2D array with 3x rows 3x columns and a nested for loop.
 
 And I am defintitely expanding on this / updating in in the future.
->`Last Edit: 2022-08-22 10:46 AM CET`
+>`Last Edit: 2022-08-23 05:17 AM CET`
 
 ## How to use the repo
 
