@@ -34,6 +34,10 @@ public class Main {
 
         // StringStuff.main(); // String Stuff - Anything you could want to know about strings.
 
+        // WrapperClass.main(); // Wrapper Classes - Provides a way to use primitive data types as reference data types.
+
+        // ArrayLists.main(); // ArrayLists - A collection that stores elements in an ordered list.
+
     }
 
 }

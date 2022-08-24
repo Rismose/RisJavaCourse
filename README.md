@@ -2,7 +2,7 @@
 
 This is a ~~private repo~~, public now bitch;
 
-You literally **never** saw this and I will slice your f*cking throat **:)**
+You literally **never** saw this, and I will slice your f*cking throat **:)**
 
 ## News `Update 2022-08-22`
 ### **I have recently been adding a bunch of documentation and comments in EVERY single existing class file to clarify what things do, why they are there, and what is going on.**
@@ -62,14 +62,24 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 **2D Arrays `Array2D.java`**
 > 2D Arrays are arrays inside of arrays. Simple example of a 2D array with 3x rows 3x columns and a nested for loop.
 
-And I am defintitely expanding on this / updating in in the future.
->**`Last Edit: 2022-08-23 05:17 AM CET`**
+**Wrapper Classes `WrapperClass.java`**
+> Wrapper classes are used to store primitive data types in a class. Simple example with print statements.
+
+**ArrayList `ArrayLists.java`**
+> ArrayLists are used to store multiple values in a single variable. A collection that stores elements in an ordered list. Simple example of two arraylists with 4 - 5 values & a for loop.
+
+### **The repo gets updated quite often.**
+>**`Last Edit: 2022-08-24 06:44 AM CET`**
+
+## What's coming next?
+The next things to be added to the repo are:
+> 2D Arrays, forEach-loop, methods, overloaded methods, and more.
 
 ## How to use the repo
 
-In order to test out and use the classes in this repo you have to do a little bit of set-up.
+In order to test out and use the classes in this repo you have to do a little setting-up.
 
- 1. Install an IDE (Integrated Development Environment) for Java. I recommend **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** but you can also opt for **[Eclipse IDE](https://www.eclipse.org/)**
+ 1. Install an IDE (Integrated Development Environment) for Java. I recommend **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**, but you can also opt for **[Eclipse IDE](https://www.eclipse.org/)**
 
 2. Once installed you have to set up a new project with a working environment. In this repo I have used **Java 8**, so anything newer than that would work (**Current version is Java 17**).
 
