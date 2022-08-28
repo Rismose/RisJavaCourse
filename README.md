@@ -68,12 +68,15 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 **ArrayList `ArrayLists.java`**
 > ArrayLists are used to store multiple values in a single variable. A collection that stores elements in an ordered list. Simple example of two arraylists with 4 - 5 values & a for loop.
 
+**2D ArrayList `ArrayList2D.java`**
+> 2D ArrayLists are ArrayLists inside of ArrayLists. Simple example of 3 ArrayLists with varying amounts of content inside another ArrayList.
+
 ### **The repo gets updated quite often.**
->**`Last Edit: 2022-08-24 06:44 AM CET`**
+>**`Last Edit: 2022-08-28 20:59 PM CET`**
 
 ## What's coming next?
 The next things to be added to the repo are:
-> 2D Arrays, forEach-loop, methods, overloaded methods, and more.
+> forEach-loop, methods, overloaded methods, and more.
 
 ## How to use the repo
 
@@ -89,6 +92,6 @@ In order to test out and use the classes in this repo you have to do a little se
 
 ![Main Class in IntelliJ IDEA](/screenshots/mainclassscreen.png)
 
-5. The file structure should look like this.
+5. The file structure should look something like this.
 
 ![File Structure in IntelliJ IDEA](/screenshots/structurescreen.png)
