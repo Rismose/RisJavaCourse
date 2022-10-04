@@ -1,3 +1,5 @@
+package Variable;
+
 public class Variables {
 
     public static void main() {

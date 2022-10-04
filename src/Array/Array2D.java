@@ -1,8 +1,10 @@
+package Array;
+
 public class Array2D {
 
     public static void main() {
 
-        // 2D Arrays - An array that contains other arrays. Class name couldn't be 2DArray because it's a reserved word.
+        // 2D Array.Arrays - An array that contains other arrays. Class name couldn't be 2DArray because it's a reserved word.
 
         int[][] array2D = new int[3][3]; // 3x3 array
 

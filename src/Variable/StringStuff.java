@@ -1,3 +1,5 @@
+package Variable;
+
 public class StringStuff {
 
     public static void main() {

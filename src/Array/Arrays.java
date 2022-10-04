@@ -1,3 +1,5 @@
+package Array;
+
 public class Arrays {
 
     public static void main() {

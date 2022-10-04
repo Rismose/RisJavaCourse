@@ -1,8 +1,10 @@
+package Math;
+
 public class Expressions {
 
     public static void main() {
 
-        // Expressions = operands & operators
+        // Math.Expressions = operands & operators
         // operands = values, variables, constants, etc.
         // operators = +, -, *, /, %, ++, --, etc.
 

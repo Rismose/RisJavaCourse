@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.ArrayList;
 
 public class ArrayList2D {
@@ -49,17 +51,17 @@ public class ArrayList2D {
         System.out.println(dessertsList); // Print the ArrayList
         System.out.println(); // Print a blank line
 
-        ArrayList<ArrayList<String>> menu = new ArrayList<>(); // Create an ArrayList of ArrayLists of Strings
+        ArrayList<ArrayList<String>> menu = new ArrayList<>(); // Create an ArrayList of ArrayList.ArrayLists of Strings
         menu.add(dinnerList); // Add the dinnerList to the menu
         menu.add(drinksList); // Add the drinksList to the menu
         menu.add(dessertsList); // Add the dessertsList to the menu
 
-        System.out.println(menu); // Print the ArrayList of ArrayLists of Strings
+        System.out.println(menu); // Print the ArrayList of ArrayList.ArrayLists of Strings
         System.out.println(); // Print a blank line
 
-        System.out.println(menu.get(0)); // Print the first arraylist in the ArrayList of ArrayLists of Strings
+        System.out.println(menu.get(0)); // Print the first arraylist in the ArrayList of ArrayList.ArrayLists of Strings
         System.out.println(); // Print a blank line
 
-        System.out.println(menu.get(1).get(0)); // Print the first String in the second arraylist in the ArrayList of ArrayLists of Strings
+        System.out.println(menu.get(1).get(0)); // Print the first String in the second arraylist in the ArrayList of ArrayList.ArrayLists of Strings
     }
 }

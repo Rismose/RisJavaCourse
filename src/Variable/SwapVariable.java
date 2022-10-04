@@ -1,3 +1,5 @@
+package Variable;
+
 public class SwapVariable {
 
     public static void main() {

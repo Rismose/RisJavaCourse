@@ -1,3 +1,5 @@
+package Loops;
+
 public class ForLoops {
 
     public static void main() throws InterruptedException {

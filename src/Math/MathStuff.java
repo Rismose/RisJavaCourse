@@ -1,3 +1,5 @@
+package Math;
+
 import javax.swing.*;
 
 public class MathStuff {

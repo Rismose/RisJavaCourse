@@ -1,3 +1,5 @@
+package Loops;
+
 public class Switches {
 
     // Switch = statement that allows a variable to be tested against multiple values
