@@ -1,9 +1,10 @@
 # LANGUAGE / SPRÅK
 
-### [ENGLISH](#[eng]-rismose-java-course)
-### [SVENSKA](#[swe]-rismose-java-kurs)
+### [ENGLISH](#english) | [SVENSKA](#svenska)
 
-## This is the repository for the Rismose Java Course.
+# ENGLISH
+
+This is a repository for Rismose Java Course.
 
 ## News `Update 2022-10-04 05:23 AM CET`
 ### Added support for Swedish
@@ -99,12 +100,12 @@ In order to test out and use the classes in this repo you have to do a little se
 
 ![File Structure in IntelliJ IDEA](/screenshots/structurescreen.png)
 
-# [SWE] Rismose Java Kurs
+# SVENSKA
 
 Det här är ett repository för Rismose Java Kurs.
 
 ## NYHETER `Uppdatering 2022-10-04 05:23 AM CET`
-### **Jag har nyligen lagt till en hel del dokumentation och kommentarer i ALLA befintliga klassfiler för att förtydliga vad saker gör, varför de finns där och vad som händer.**
+### Lagt till stöd för Svenska
 ## Källkod
 
 I detta repo har vi en massa användbara klasser för Java nybörjare, som förklarar specifika saker i Java.
