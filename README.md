@@ -19,62 +19,62 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
  **Main `Main.java`**
 > Main class, where all methods are initialized.
 
-**Variable.Variables `Variable.Variables.java`**
+**Variables `Variable\Variables.java`**
 > Variable.Variables such as **`a, b, c, 1, 2, 3, etc.`** Stores the value of integers and Strings for example.
 
-**Swap Variable.Variables `Swapvariable.java`**
+**Swap Variable `Variable\Swapvariable.java`**
 > The art of swapping variable information using a temporary Variable **`(swapping x value to y using z)`**
 
-**Strings `Variable.StringStuff.java`**
+**Strings `Variable\StringStuff.java`**
 > A lot of information about Strings and what you can do with them. **`equals` `equalsIgnoreCase` `length` `charAt` `indexOf` `isEmpty` `toUpperCase` `toLowerCase` `trim` `replace`**
 
- **Math.Expressions `Math.Expressions.java`**
-> Math.Expressions such as **`+, -, *, /, %, ++, --, etc.`**
+**Math `Math\Expressions.java`**
+> Math expressions such as **`+, -, *, /, %, ++, --, etc.`**
 
 **GUI.GUI `GUI.GUI.java`**
 > Simple use of the Swing graphical package for getting, storing and showing user input and messages in a graphical interface.
 
-**Math `Math.MathStuff.java`**
+**Math `Math\MathStuff.java`**
 > Basic math introduction & calculating the hypotenuse of a right side triangle. Also using the **`Swing GUI.GUI`** to get user input.
 
-**Random `Math.RandomStuff.java`**
+**Random `Math\RandomStuff.java`**
 > Pseudo-random number generator between 1-5.
 
-**Loops.Switches `Loops.Switches.java`**
+**Switches `Loops\Switches.java`**
 > Using switches to compare for a value, instead of having to have a large tree of if-statements
 
-**Variable.Input `Variable.Input.java`**
+**Input `Variable\Input.java`**
 > The use of getting and storing user input via a Scanner.
 
-**Logical Operators `Variable.LogicalOperators.java`**
+**Logical Operators `Variable\LogicalOperators.java`**
 > Using logical operators like **`&&, ||, !`** to check if-statements and case statements. Also using methods to infinitely run the program until the correct key or phrase is input.
 
-**While Loops `Loops.WhileLoops.java`**
+**While Loops `Loops\WhileLoops.java`**
 > Simple while loops and an example of a do-while loop.
 
-**For Loops `Loops.ForLoops.java`**
+**For Loops `Loops\ForLoops.java`**
 > Simple for loops, and counting with delay.
 
-**For Each Loops `Loops.ForEachLoops.java`**
+**For Each Loops `Loops\ForEachLoops.java`**
 > Simple for each loop.
 
-**Nested Loops `Loops.NestedLoops.java`**
+**Nested Loops `Loops\NestedLoops.java`**
 > Loops inside of loops. Creates a grid of your select character and size, while starting over after the grid has been displayed to you. Has support for continuing or breaking the loop with two separate methods with exception handling
 
-**Array.Arrays `Array.Arrays.java`**
-> Array.Arrays are used to store multiple values in a single variable. Simple example of an array with 3 values & a for loop. Exception handling is used to catch errors.
+**Array `Array\Arrays.java`**
+> Arrays are used to store multiple values in a single variable. Simple example of an array with 3 values & a for loop. Exception handling is used to catch errors.
 
-**2D Array.Arrays `Array.Array2D.java`**
-> 2D Array.Arrays are arrays inside of arrays. Simple example of a 2D array with 3x rows 3x columns and a nested for loop.
+**2D Array `Array\Array2D.java`**
+> 2D Arrays are arrays inside of arrays. Simple example of a 2D array with 3x rows 3x columns and a nested for loop.
 
 **Wrapper Classes `WrapperClass.java`**
 > Wrapper classes are used to store primitive data types in a class. Simple example with print statements.
 
-**ArrayList `ArrayList.ArrayLists.java`**
-> ArrayList.ArrayLists are used to store multiple values in a single variable. A collection that stores elements in an ordered list. Simple example of two arraylists with 4 - 5 values & a for loop.
+**ArrayList `ArrayList\ArrayLists.java`**
+> ArrayLists are used to store multiple values in a single variable. A collection that stores elements in an ordered list. Simple example of two arraylists with 4 - 5 values & a for loop.
 
-**2D ArrayList `ArrayList.ArrayList2D.java`**
-> 2D ArrayList.ArrayLists are ArrayList.ArrayLists inside ArrayList.ArrayLists. Simple example of 3 ArrayList.ArrayLists with varying amounts of content inside another ArrayList.
+**2D ArrayList `ArrayList\ArrayList2D.java`**
+> 2D ArrayLists are ArrayList.ArrayLists inside ArrayList.ArrayLists. Simple example of 3 ArrayList.ArrayLists with varying amounts of content inside another ArrayList.
 
 **Methods `Methods.java`**
 > Methods are used to perform certain actions, and they are also called functions. Simple example of a method that returns a value.
@@ -117,62 +117,62 @@ Allt ska finnas i **`src`** mappen. Resten av filerna är **IntelliJ IDEA** proj
 **Main `Main.java`**
 > Huvudklassen, där alla metoder initieras.
 
-**Variable.Variables `Variable.Variables.java`**
+**Variables `Variable\Variables.java`**
 > Variabler såsom **`a, b, c, 1, 2, 3, etc.`** Sparar värdet av heltal och Strängar till exempel.
 
-**Swap Variable.Variables `Swapvariable.java`**
+**Swap Variables `Variable\Swapvariable.java`**
 > Konsten att byta variabelinformation med hjälp av en temporär Variabel **`(byta x värde till y med z)`**
 
-**Strings `Variable.StringStuff.java`**
+**Strings `Variable\StringStuff.java`**
 > Massa information om Strängar och vad du kan göra med dem. **`equals` `equalsIgnoreCase` `length` `charAt` `indexOf` `isEmpty` `toUpperCase` `toLowerCase` `trim` `replace`**
 
-**Math.Expressions `Math.Expressions.java`**
+**Math Expressions `Math\Expressions.java`**
 > Uttryck som **`+, -, *, /, %, ++, --, etc.`**
 
-**GUI.GUI `GUI.GUI.java`**
+**GUI `GUI\GUI.java`**
 > Enkel användning av Swing grafiska paket för att få, lagra och visa användarinmatning och meddelanden i ett grafiskt gränssnitt.
 
-**Math `Math.MathStuff.java`**
+**Math `Math\MathStuff.java`**
 > Enkel matematikintroduktion och beräkning av hypotenusan i en rätvinklig triangel. Använder också **`Swing GUI.GUI`** för att få användarinmatning.
 
-**Random `Math.RandomStuff.java`**
+**Random `Math\RandomStuff.java`**
 > Pseudo- slumpmässig tal-generator mellan 1-5.
 
-**Loops.Switches `Loops.Switches.java`**
+**Loops.Switches `Loops\Switches.java`**
 > Användning av växlar (switches) för att jämföra ett värde, istället för att ha en stor träd av if-satser
 
-**Variable.Input `Variable.Input.java`**
+**Input `Variable\Input.java`**
 > Användning av att få och lagra användarinmatning via en Scanner.
 
-**Logical Operators `Variable.LogicalOperators.java`**
+**Logical Operators `Variable\LogicalOperators.java`**
 > Användning av logiska operatorer som **`&&, ||, !`** för att kontrollera if-satser och fallgropar. Använder också metoder för att oändligt köra programmet tills rätt nyckel eller fras matas in.
 
-**While Loops `Loops.WhileLoops.java`**
+**While Loops `Loops\WhileLoops.java`**
 > Enkel while-loop och ett exempel på en do-while-loop.
 
-**For Loops `Loops.ForLoops.java`**
+**For Loops `Loops\ForLoops.java`**
 > Enkel for-loop.
 
-**For Each Loops `Loops.ForEachLoops.java`**
+**For Each Loops `Loops\ForEachLoops.java`**
 > Enkel for-each-loop.
 
-**Nested Loops `Loops.NestedLoops.java`**
+**Nested Loops `Loops\NestedLoops.java`**
 > Enkel nested loop. Skapar en grid med din inmatade karaktär och storlek, och startar om efter att griden är färdig. Har också en break funktion för att avsluta loopen med två separata metoder och felhantering.
 
-**Array.Arrays `Array.Arrays.java`**
+**Arrays `Array\Arrays.java`**
 > Enkel array med 3 värden och en for-loop för att visa dem. Felhantering för att se till att användaren matar in rätt värden.
 
-**2D Array.Arrays `Array.Array2D.java`**
-> 2D Array.Arrays är arrays inuti arrays. Enkel 2D array med 3x rader och 3x kolumner.
+**2D Arrays `Array\Array2D.java`**
+> 2D Arrays är arrays inuti arrays. Enkel 2D array med 3x rader och 3x kolumner.
 
 **Wrapper Classes `WrapperClass.java`**
 > Wrapper klasser används för att lagra primitiva datatyper i en klass. Enkel exempel med print satser.
 
-**ArrayList `ArrayList.ArrayLists.java`**
-> ArrayList.ArrayLists används för att lagra flera värden i en enda variabel. En samling som lagrar element i en ordnad lista. Enkel exempel på två arraylists med 4 - 5 värden & en for-loop.
+**ArrayList `ArrayList\ArrayLists.java`**
+> ArrayLists används för att lagra flera värden i en enda variabel. En samling som lagrar element i en ordnad lista. Enkel exempel på två arraylists med 4 - 5 värden & en for-loop.
 
-**2D ArrayList `ArrayList.ArrayList2D.java`**
-> 2D ArrayList.ArrayLists är ArrayList.ArrayLists inuti ArrayList.ArrayLists. Enkel exempel på 3 ArrayList.ArrayLists med olika mängder innehåll inuti en annan ArrayList.
+**2D ArrayList `ArrayList\ArrayList2D.java`**
+> 2D ArrayLists är ArrayList.ArrayLists inuti ArrayList.ArrayLists. Enkel exempel på 3 ArrayList.ArrayLists med olika mängder innehåll inuti en annan ArrayList.
 
 **Methods `Methods.java`**
 > Metoder är en samling av instruktioner som utförs när de anropas. Enkel exempel på en metod som tar in två värden och returnerar deras summa.
