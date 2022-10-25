@@ -76,11 +76,14 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 **2D ArrayList `ArrayList\ArrayList2D.java`**
 > 2D ArrayLists are ArrayList.ArrayLists inside ArrayList.ArrayLists. Simple example of 3 ArrayList.ArrayLists with varying amounts of content inside another ArrayList.
 
-**Methods `Methods.java`**
+**Methods `Methods\Methods.java`**
 > Methods are used to perform certain actions, and they are also called functions. Simple example of a method that returns a value.
 
+**Overloaded Methods** `Methods\OverloadedMethods.java`
+> Overloaded methods are methods that have the same name, but different parameters. Simple example of two methods with the same name, but different parameters.
+
 ### **The repo gets updated quite often.**
->**`Last Edit: 2022-10-04 05:23 AM CET`**
+>**`Last Edit: 2022-10-25 05:28 AM CET`**
 
 ## How to use the repo
 
@@ -174,12 +177,15 @@ Allt ska finnas i **`src`** mappen. Resten av filerna är **IntelliJ IDEA** proj
 **2D ArrayList `ArrayList\ArrayList2D.java`**
 > 2D ArrayLists är ArrayList.ArrayLists inuti ArrayList.ArrayLists. Enkel exempel på 3 ArrayList.ArrayLists med olika mängder innehåll inuti en annan ArrayList.
 
-**Methods `Methods.java`**
+**Methods `Methods\Methods.java`**
 > Metoder är en samling av instruktioner som utförs när de anropas. Enkel exempel på en metod som tar in två värden och returnerar deras summa.
+
+**Overloaded Methods `Methods\OverloadedMethods.java`**
+> Överladdade Metoder är metoder med samma namn men med olika parametrar.
 
 ### **Repoet uppdateras ganska ofta.**
 
->**`Senaste Uppdateringen: 2022-10-04 05:23 AM CET`**
+>**`Senaste Uppdateringen: 2022-10-25 05:28 AM CET`**
 
 ## Hur du kan använda repoet
 
