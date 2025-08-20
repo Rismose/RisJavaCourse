@@ -40,8 +40,8 @@ Start with the basics and move on to more advanced topics:
 - [W3Schools Java Tutorial](https://www.w3schools.com/java/)
 - [Codecademy Java Course](https://www.codecademy.com/learn/learn-java)
 
-## News `Update 2025-18-20 05:23`
-### Added support for Swedish
+## News `Update 2025-18-20`
+### Re-did the comments and added support for easily running each example in its own file.
 ## Source
 
 In this repo we have a ton of helpful classes for Java beginners, that explain certain things in Java.
@@ -136,8 +136,8 @@ Everything should be in the **`src`** folder. The rest of the files are **Intell
 - [W3Schools Java](https://www.w3schools.com/java/)
 - [Codecademy Java](https://www.codecademy.com/learn/learn-java)
 
-## Nyheter `Uppdatering 2025-18-20 05:23`
-### Svenskt språkstöd tillagt
+## Nyheter `Uppdatering 2025-18-20`
+### Gjorde om kommentarerna och lade till stöd för att enkelt köra varje exempel i sin egen fil.
 ## Källa
 
 I detta repo finns många hjälpsamma klasser för Java-nybörjare, som förklarar olika saker i Java.
