@@ -1,24 +1,32 @@
+// Methods.java
+// Demonstrates how to create and use methods in Java
+// Try it yourself: Add more methods, change parameters, or return values!
+
 package Methods;
 
 public class Methods {
+    public static void main(String[] args) {
+        hello_world(); // Calls the hello_world method
 
-    public static void main() {
+        String title = "Hello"; // A string variable to hold a message
+        int thing = 5; // An integer variable to hold a number
+        print(title, thing); // Calls the print method with parameters
 
-        hello_world(); // Call the method hello_world(). This will print out "Hello World!".
-
-
-        String title = "Hello"; // Declare a string variable
-        int thing = 5; // Declare an integer variable
-        print(title, thing); // Call the method print(). This will print out "Hello World!".
-
+        // Try it yourself:
+        // - Add a method that returns a value (e.g., int add(int a, int b)).
+        // - Change the parameters and see what prints.
+        // - Create a method that takes user input.
     }
 
-    private static void hello_world() { // Private method outside the main method that prints "Hello World"
-        System.out.println("Hello World!");
+    // Method that prints "Hello World!"
+    private static void hello_world() {
+        System.out.println("Hello World!"); // Prints a greeting message to the console
     }
 
-    private static void print(String message, int number) { // Private method outside the main method that prints a message
-        System.out.println(message + " " + number);
+    // Method that prints a message and a number
+    private static void print(String message, int number) {
+        System.out.println(message + " " + number); // Prints the message and the number passed as parameters
+        // This method takes a string and an integer, then prints them together
+        // Try changing the parameters when calling this method to see different outputs
     }
-
 }

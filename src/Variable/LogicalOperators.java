@@ -1,95 +1,84 @@
+// LogicalOperators.java
+// Demonstrates logical operators in Java: && (and), || (or), ! (not)
+// Try it yourself: Change the temperature, try different phrases, or add your own conditions!
+
 package Variable;
 
 import java.util.Scanner;
 
 public class LogicalOperators {
 
-    public static void main() {
-
-        // logical operators: &&, ||, !
-        //
-        //                    && = and
-        //                    ! = not
-        //                    || = or
-
-
-        //      AND operator (&&)
-        int temp = 25; // Creating a temperature variable and assigning it a value
-
-        if (temp>30) { // Simple If-statement checking if the temperature is above 30.
-
-            System.out.println("It is hot outside"); // Prints the message if the temperature is above 30.
-
-        } else if (temp>20 && temp<30) { // Checking whether the temperature is above 20 and below 30
-
-            System.out.println("It is nice outside"); // Prints the message if the temperature is above 20 and below 30.
-
-        } else { // Else if the temperature is below 20
-
-            System.out.println("It is cold outside"); // Prints the message if the temperature is below 20.
+    public static void main(String[] args) {
+        // --- AND operator (&&) ---
+        int temp = 25; // Try changing this value!
+        if (temp > 30) { // If temperature is greater than 30
+            System.out.println("It is hot outside"); // Prints if variable temp is greater than 30
+        } else if (temp > 20 && temp < 30) { // If temperature is between 20 and 30
+            System.out.println("It is nice outside"); // Prints if variable temp is greater than 20 and less than 30
+        } else { // If temperature is 20 or less
+            System.out.println("It is cold outside"); // Prints if variable temp is 20 or less
         }
 
+        // --- NOT operator (!) ---
+        not();  // See method below
+        not2(); // See method below
 
-        //      NOT operator (!)
-       not();      // Check the method below called not()
-       not2();     // Check the method below called not2()
+        // --- OR operator (||) ---
+        game(); // See method below
 
-        //      OR operator (||)
-       game();     // Check the method below called game()
+        // Try it yourself:
+        // - Change the value of temp and see what prints!
+        // - Add more conditions using &&, ||, or !
 
+        // The && operator checks if both conditions are true,
+        // the || operator checks if at least one condition is true,
+        // and the ! operator negates a condition (makes it false).
+
+        // - Try different phrases in the not() and game() methods.
     }
 
-    //      A method to showcase the NOT operator (!)
-    //      While being able to restart itself if you do not type the correct phrase
-
+    // Method to showcase the NOT operator (!)
+    // Keeps asking until you type the correct phrase
     private static void not() {
-        Scanner input = new Scanner(System.in); // Declaring a Scanner object
-
-        System.out.println("Type \"yes\""); // Printing a message asking you to say "yes"
-        if ("yes".equals(input.next())) { // Simple if-statement & scanner input checking if the answer is "yes".
-            System.out.println("You typed \"yes\""); // Prints the message if the answer is "yes".
-        } else { // Else if the answer wasn't "yes"
-            System.out.println("You did not type \"yes\""); // Prints the message if the answer wasn't "yes".
-            input.close(); // Closing the scanner object
-            not(); // Restarting the method
+        Scanner input = new Scanner(System.in); // Create a Scanner object to read input
+        System.out.println("Type \"yes\""); // Prompt the user to type "yes"
+        if ("yes".equals(input.next())) { // Check if the input is "yes"
+            System.out.println("You typed \"yes\""); // If the input is "yes", print a message
+        } else { // If the input is not "yes"
+            System.out.println("You did not type \"yes\". Try again!"); // Print a message indicating the input was incorrect
+            not(); // Recursively call itself until "yes" is typed since it's in the else block
+            // This will keep asking the user to type "yes" until they do so.
+            // Note: This is a simple example and can lead to infinite recursion if not handled properly
         }
     }
 
-    //      A method to showcase the NOT operator (!)
-    //      While being able to restart itself if you do not type the correct phrase
-    //      Works the same as not() but uses switches instead of if-statements
-
+    // Another NOT example
     private static void not2() {
-        Scanner input = new Scanner(System.in); // Declaring a Scanner object
-
-        System.out.println("Type \"yes\""); // Printing a message asking you to say "yes"
-        switch (input.next()) { // Switch statement checking if the answer is "yes".
-            case "yes": // If the answer is "yes"
-                System.out.println("You typed \"yes\""); // Prints the message if the answer is "yes".
-                break;  // Breaking the switch.
-            default: // Else if the answer wasn't "yes". Default switch will deny.
-                System.out.println("You did not type \"yes\""); // Prints the message if the answer wasn't "yes".
-                not2(); // Restarting the method
-                input.close(); // Closing the scanner object
-                break; // Breaking the switch.
+        Scanner input = new Scanner(System.in); // Create a Scanner object to read input
+        System.out.println("Type anything except \"no\""); // Prompt the user to type anything except "no"
+        String answer = input.next(); // Read the user's input
+        if (!"no".equals(answer)) { // Check if the input is not "no"
+            System.out.println("You did not type \"no\"!"); // If the input is not "no", print a message
+        } else { // If the input is "no"
+            System.out.println("You typed \"no\". Try again!"); // Print a message indicating the input was "no"
+            not2(); // Recursively call itself until the input is not "no" since it's in the else block
+            // This will keep asking the user to type anything except "no" until they do so
+            // Note: This is a simple example and can lead to infinite recursion if not handled properly
         }
     }
 
-    //      A method to showcase the OR operator (||)
-    //      While being able to restart itself if you do not press the correct key
+    // OR operator example
     private static void game() {
-        Scanner input = new Scanner(System.in); // Declaring a Scanner object
-
-        System.out.println("You are in the Lost Forest, press q or Q to quit"); // Printing a message asking you to press "q" or "Q"
-        String response = input.next(); // Storing the input in a string named "response"
-
-        if (response.equals("q") || response.equals("Q")) { // Simple if-statement checking if the answer is "q" or "Q".
-            System.out.println("You have escaped the Lost Forest"); // Prints the message if the answer is "q" or "Q".
-        } else { // Else if the answer wasn't "q" or "Q"
-            System.out.println("You did not escape."); // Prints the message if the answer wasn't "q" or "Q".
-            input.close(); // Closing the scanner object
-            game(); // Restarting the method
+        Scanner input = new Scanner(System.in); // Create a Scanner object to read input
+        System.out.println("Type \"win\" or \"lose\""); // Prompt the user to type either "win" or "lose"
+        String answer = input.next(); // Read the user's input
+        if ("win".equals(answer) || "lose".equals(answer)) { // Check if the input is either "win" or "lose"
+            System.out.println("Game over!"); // If the input is either "win" or "lose", print a message
+        } else { // If the input is neither "win" nor "lose"
+            System.out.println("Invalid input. Try again!"); // Print a message indicating the input was invalid
+            game(); // Recursively call itself until a valid input is typed since it's in the else block
+            // This will keep asking the user to type either "win" or "lose" until they do so
+            // Note: This is a simple example and can lead to infinite recursion if
         }
     }
-
 }

@@ -1,14 +1,14 @@
+// WrapperClass.java
+// Demonstrates wrapper classes in Java and their use with collections
+// Try it yourself: Use wrapper classes in ArrayLists, compare with primitives, or try autoboxing/unboxing!
+
 public class WrapperClass {
-
-    public static void main() {
-
-        // Wrapper Classes - Provides a way to use primitive data types as reference data types.
-        //                 - reference data types contain useful methods and properties.
-        //                 - can be used with collections. (ArrayList, HashMap, etc.)
-
+    public static void main(String[] args) {
+        // --- WRAPPER CLASS BASICS ---
+        // Wrapper classes let you use primitive types as objects
+        // Useful for collections like ArrayList, HashMap, etc.
 
         // Primitive         // Wrapper
-        // --------          // -------
         // boolean           // Boolean
         // char              // Character
         // int               // Integer
@@ -18,52 +18,49 @@ public class WrapperClass {
         // short             // Short
         // byte              // Byte
 
-        // AutoBoxing - Automatic conversion of primitive data types to their corresponding wrapper classes.
+        // AutoBoxing: primitive to wrapper
+        // UnBoxing: wrapper to primitive
 
-        // UnBoxing - Automatic conversion of wrapper classes to their corresponding primitive data types.
+        Boolean a = true;
+        Character b = '@';
+        Integer c = 123;
+        Double d = 3.14;
+        Float e = 1.23f;
+        Long f = 1234567890123456789L;
+        Short g = 12;
+        Byte h = 127;
 
-        Boolean a = true; // Boolean a = true;
-        Character b = '@'; // Character b = "@";
-        Integer c = 123; // Integer c = 123;
-        Double d = 3.14; // Double d = 3.14;
-        Float e = 1.23f; // Float e = 1.23f;
-        Long f = 1234567890123456789L; // Long f = 1234567890123456789L;
-        Short g = 12; // Short g = 12;
-        Byte h = 127; // Byte h = 127;
+        // String is already a reference data type
+        String i = "Rismose";
 
-        // String is already a reference data type.
-        String i = "Rismose"; // String e = "Rismose";
-
-        if (a == true) { // if a is true
-            System.out.println("a is true"); // Prints "a is true"
+        if (a == true) {
+            System.out.println("a is true");
+        }
+        if (b == '@') {
+            System.out.println("b is @");
+        }
+        if (c == 123) {
+            System.out.println("c is 123");
+        }
+        if (d == 3.14) {
+            System.out.println("d is 3.14");
+        }
+        if (e == 1.23f) {
+            System.out.println("e is 1.23f");
+        }
+        if (f == 1234567890123456789L) {
+            System.out.println("f is 1234567890123456789L");
+        }
+        if (g == 12) {
+            System.out.println("g is 12");
+        }
+        if (h == 127) {
+            System.out.println("h is 127");
         }
 
-        if (b == '@') { // if b is @
-            System.out.println("b is @"); // Prints "b is @"
-        }
-
-        if (c == 123) { // if c is 123
-            System.out.println("c is 123"); // Prints "c is 123"
-        }
-
-        if (d == 3.14) { // if d is 3.14
-            System.out.println("d is 3.14"); // Prints "d is 3.14"
-        }
-
-        if (e == 1.23f) { // if e is 1.23f
-            System.out.println("e is 1.23f"); // Prints "e is 1.23f"
-        }
-
-        if (f == 1234567890123456789L) { // if f is 1234567890123456789L
-            System.out.println("f is 1234567890123456789L"); // Prints "f is 1234567890123456789L"
-        }
-
-        if (g == 12) { // if g is 12
-            System.out.println("g is 12"); // Prints "g is 12"
-        }
-
-        if (h == 127) { // if h is 127
-            System.out.println("h is 127"); // Prints "h is 127"
-        }
+        // Try it yourself:
+        // - Use wrapper classes in an ArrayList (e.g., ArrayList<Integer>).
+        // - Compare wrapper objects with primitives.
+        // - Try autoboxing and unboxing in your own methods.
     }
 }

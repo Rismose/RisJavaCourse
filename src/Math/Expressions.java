@@ -1,74 +1,46 @@
+// Expressions.java
+// Demonstrates basic math operators in Java: +, -, *, /, %, ++, --
+// Try it yourself: Change the numbers, use other operators, and see what happens!
+
 package Math;
 
 public class Expressions {
 
-    public static void main() {
+    public static void main(String[] args) {
+        // Math expressions use operands (values) and operators (+, -, *, /, %, ++, --)
 
-        // Math.Expressions = operands & operators
-        // operands = values, variables, constants, etc.
-        // operators = +, -, *, /, %, ++, --, etc.
+        // --- ADDITION ---
+        int friends = 10; // Initial number of friends
+        friends++; // Adds 1 (now 11)
+        System.out.println(friends); // Prints 11
 
+        // --- SUBTRACTION ---
+        int enemies = 10; // Initial number of enemies
+        enemies--; // Subtracts 1 (now 9)
+        System.out.println(enemies); // Prints 9
 
-        //  ADDITION
+        // --- DIVISION ---
+        int classmates = 25; // Total number of classmates
+        int groups = classmates / 5; // Divide classmates into groups of 5 (result: 5)
+        // This means 25 classmates can be divided into 5 groups of 5
+        // Each group will have 5 classmates
+        System.out.println(groups); // Prints 5
 
-        // Let's say we have 10 friends.
-        int friends = 10;
-        // Using the ++ operator we can add 1 to our friends variable.
-        friends++; // would be 11
-        // Printing out the friends variable. (11)
-        System.out.println(friends);
+        // --- MULTIPLICATION ---
+        int total = 100; // Total number of items
+        int group = total / 5; // Divides 100 by 5 (result: 20)
+        System.out.println(group); // Prints 20
 
+        // --- MODULUS (remainder) ---
+        int remainder = classmates % 4; // Divides 25 by 4 and gets the remainder
+        // This means when 25 classmates are divided into groups of 4,
+        // there will be 1 classmate left over
+        // The modulus operator (%) gives the remainder of a division
+        System.out.println(remainder); // Prints 1
 
-        //  SUBTRACTION
-
-        // Now, let's say we also have 10 enemies.
-        int enemies = 10;
-        // Using the -- operator we can subtract 1 from our enemies variable.
-        enemies--; // would be 9
-        // Printing out the enemies variable. (9)
-        System.out.println(enemies);
-
-
-        //  DIVISION
-
-        // Let's say we have 25 classmates. We want to divide them into 5 different groups.
-        int classmates = 25;
-        // We can use the / operator to divide our classmates variable by 5.
-        int groups = classmates / 5;
-        // We now have a new variable called groups, that is equal to 5.
-        // Printing out the groups variable. (5)
-        System.out.println(groups);
-
-
-        //  MULTIPLICATION
-
-        // Let's say we have a total of 100 people.
-        int total = 100;
-        // We want to know how many people are in each group.
-        int group = total / 5; // We can use the / operator to divide our total variable by 5.
-        // We now have a new variable called group, that is equal to 20.
-        // Printing out the group variable. (20)
-        System.out.println(group);
-
-
-        //  PERCENTAGE
-
-        // Let's say we have a total of 500 people.
-        int all = 500;
-        // We want to know how many percent of the total 7 people are.
-        float percent = (7f * 100)  / all; // We can use our people divided by 100 to get the percentage if there were 100 people.
-        // Printing out the percent variable. (1.4%)
-        System.out.println(percent + "%");
-
-        // ! Writing this at 10 in the morning after I haven't slept. And the percentage part doesn't make much sense to me.
-        // I wrote it and it's right, but I don't understand it right now, lmao, I need sleep. Don't blame me if it is wrong !
-
-
-
-
-
-
-
+        // Try it yourself:
+        // - Change the numbers and see what prints!
+        // - Try using other operators like +=, -=, *=, /=
+        // - What happens if you divide by zero?
     }
-
 }

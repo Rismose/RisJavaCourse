@@ -8,51 +8,63 @@ import GUI.*;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
+        // Welcome to the Java Course Main Menu!
+        // Uncomment ONE line below to run the example you want.
+        // Each example is a separate topic. Try them all!
 
-        //      In here, just uncomment the method you want to test
+        // Each example can be run in its own file.
+        // You can also modify the code in each file to see how it works.
 
-        // Variable.Variables.main(); // Just Basic Variable Stuff
+        // 1. Hello World (start here!)
+        // # Uncomment the line below to run the HelloWorld example #
+        // HelloWorld.main(args); // Prints 'Hello, World!' to the console
 
-        // Variable.SwapVariable.main(); // Just Basic Swap Variable Stuff
+        // 2. Variables #
+        // Variable.Variables.main(); // Basic variable usage
 
-        // Variable.Input.main(); // Scanner Variable.Input Console
+        // 3. Swap Variable
+        // Variable.SwapVariable.main(); // Swapping values between variables
 
-        // Math.Expressions.main(); // Basic Math.Expressions
+        // 4. Input
+        // Variable.Input.main(); // Getting user input from the console
 
-        // GUI.GUI.main(); // GUI.GUI STUFF
+        // 5. Math Expressions
+        // Math.Expressions.main(); // Basic math operations
 
-        // Math.MathStuff.main(); // Calculate the hypotenuse of a right triangle
+        // 6. Strings
+        // Variable.StringStuff.main(); // String operations and methods
 
-        // Math.RandomStuff.main(); // Generate pseudo-random numbers
+        // 7. Logical Operators
+        // Variable.LogicalOperators.main(); // Using logical operators
 
-        // Loops.Switches.main(); // Switch Statements
+        // 8. Loops
+        // Loops.WhileLoops.main(); // While loops
+        // Loops.ForLoops.main(); // For loops
+        // Loops.ForEachLoops.main(); // For-each loops
+        // Loops.NestedLoops.main(); // Nested loops
 
-        // Variable.LogicalOperators.main(); // Logical Operators
+        // 9. Switch Statements
+        // Loops.Switches.main(); // Switch statements
 
-        // Loops.WhileLoops.main(); // while Loops
+        // 10. Arrays
+        // Array.Arrays.main(); // Arrays
+        // Array.Array2D.main(); // 2D Arrays
 
-        // Loops.ForLoops.main(); // for Loops & delay between lines
+        // 11. ArrayLists
+        // ArrayList.ArrayLists.main(); // ArrayLists
+        // ArrayList.ArrayList2D.main(); // 2D ArrayLists
 
-        // Loops.ForEachLoops.main(); // for each Loops
+        // 12. Methods
+        // Methods.Methods.main(); // Methods
+        // Methods.OverloadedMethods.main(); // Overloaded methods
 
-        // Loops.NestedLoops.main(); // nested loops, loops inside loops
+        // 13. GUI
+        // GUI.GUI.main(); // Simple GUI example
 
-        // Array.Arrays.main(); // Array.Arrays - Store multiple values in a single variable.
+        // 14. Wrapper Classes
+        // WrapperClass.main(); // Using wrapper classes
 
-        // Array.Array2D.main(); // 2D Array.Arrays - An array that contains other arrays
-
-        // Variable.StringStuff.main(); // String Stuff - Anything you could want to know about strings.
-
-        // WrapperClass.main(); // Wrapper Classes - Provides a way to use primitive data types as reference data types.
-
-        // ArrayList.ArrayLists.main(); // ArrayList.ArrayLists - A collection that stores elements in an ordered list.
-
-        // ArrayList.ArrayList2D.main(); // ArrayList.ArrayList2D - A collection that stores elements in an ordered list.
-
-        // Methods.Methods.Methods.Methods.main(); // Methods.Methods - A block of code that can be used multiple times.
-
-        // Methods.OverloadedMethods.main(); // Overloaded Methods - Methods.Methods with the same name but different parameters.
-
+        // Try it yourself: Uncomment a line, run, then change something and run again!
     }
 
 }
